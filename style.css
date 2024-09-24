@@ -11,7 +11,7 @@ body {
     background-color: rgb(50 59 76);
     color: white;
     text-align: center;
-
+    overflow: auto;
 }
 
 h1 {
@@ -34,7 +34,7 @@ section {
 }
 
 .vzdelani h3 {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .paticka {
@@ -51,6 +51,7 @@ section {
     display: inline-block;
     color: white;
     padding: 0 40px 20px 40px;
+    text-align: center;
 
 }
 
@@ -61,6 +62,7 @@ section {
 .paticka ul {
     margin-left: 0;
     margin-bottom: 0;
+    padding: 0;
 }
 
 table {
@@ -81,26 +83,40 @@ td {
 .foto-programovani {
     float: right;
     width: 300px;
-    border-radius: 0 20px;
+    border-radius: 0 50px;
     margin-left: 20px;
     margin-bottom: 20px;
-    border: 2px solid rgb(50 59 76);
+    border: 3px solid rgb(50 59 76);
 }
 
 .foto-lego {
     float: left;
     width: 300px;
-    border-radius: 20px 0;
+    border-radius: 50px 0;
     margin-right: 20px;
     margin-bottom: 20px;
-    border: 2px solid rgb(50 59 76);
+    border: 3px solid rgb(50 59 76);
 }
 
 .foto-kniha {
     float: right;
     width: 300px;
-    border-radius: 0 20px;
+    border-radius: 0 50px;
     margin-left: 20px;
     margin-bottom: 20px;
-    border: 2px solid rgb(50 59 76);
+    border: 3px solid rgb(50 59 76);
 }
+
+.omne img {
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px 20px 20px 0;
+    border: 3px solid rgb(50 59 76);
+}
+.nadpis3 {
+    clear: left;
+}
+
+
+
