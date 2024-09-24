@@ -1,10 +1,9 @@
 body {
     color: rgb(50 59 76);
-    background-color: rgba(255, 251, 247, 0.756);
+    background-color: #e2e2e275;
     font-family: "Noto Sans", sans-serif;
     font-size: 15px;
     line-height: 1.5;
-    text-align: center;
     margin: 0;
 }
 
@@ -17,16 +16,25 @@ body {
 
 h1 {
     margin-top: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 40px 0;
+    }
+
+h2 {
+    text-align: center;
 }
+
 section {
     padding: 0 15%;
+    overflow: auto;
 }
 
 .zkusenosti,
 .dovednosti {
-    background-color: antiquewhite;
+    background-color: #a3a3a3;
+}
+
+.vzdelani h3 {
+    font-size: 17px;
 }
 
 .paticka {
@@ -37,4 +45,62 @@ section {
 
 .odkazy li {
     display: inline-block;
+}
+
+.odkazy a {
+    display: inline-block;
+    color: white;
+    padding: 0 40px 20px 40px;
+
+}
+
+.paticka h2 {
+    padding: 20px 0 0 0;
+}
+
+.paticka ul {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+table {
+    border-spacing: 0;
+}
+
+th,
+td {
+    text-align: left;
+    font-weight: bold;
+    }
+
+.ukazka {
+    padding-left: 40px;
+    font-weight: normal;
+}
+
+.foto-programovani {
+    float: right;
+    width: 300px;
+    border-radius: 0 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(50 59 76);
+}
+
+.foto-lego {
+    float: left;
+    width: 300px;
+    border-radius: 20px 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(50 59 76);
+}
+
+.foto-kniha {
+    float: right;
+    width: 300px;
+    border-radius: 0 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(50 59 76);
 }
